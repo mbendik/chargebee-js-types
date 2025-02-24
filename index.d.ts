@@ -296,7 +296,7 @@ interface VatFunctions {
   validateVat(payload: VatValidationParams): VatValidationResponse;
 }
 
-type ChargebeeInstance = {
+export type ChargebeeInstance = {
   site: string;
   publishableKey: string;
   createComponent(
